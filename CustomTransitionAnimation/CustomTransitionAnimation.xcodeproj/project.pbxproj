@@ -13,6 +13,9 @@
 		887C68291E72AD34007FA2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C68271E72AD34007FA2D9 /* Main.storyboard */; };
 		887C682B1E72AD34007FA2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887C682A1E72AD34007FA2D9 /* Assets.xcassets */; };
 		887C682E1E72AD34007FA2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887C682C1E72AD34007FA2D9 /* LaunchScreen.storyboard */; };
+		887C68371E72AF03007FA2D9 /* TCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C68361E72AF03007FA2D9 /* TCNavigationController.m */; };
+		887C683A1E72B2A5007FA2D9 /* TCNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C68391E72B2A5007FA2D9 /* TCNavigationControllerDelegate.m */; };
+		887C683D1E72B775007FA2D9 /* TCTransitionAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C683C1E72B775007FA2D9 /* TCTransitionAnimationDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		887C682A1E72AD34007FA2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887C682D1E72AD34007FA2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887C682F1E72AD34007FA2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887C68351E72AF03007FA2D9 /* TCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavigationController.h; sourceTree = "<group>"; };
+		887C68361E72AF03007FA2D9 /* TCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavigationController.m; sourceTree = "<group>"; };
+		887C68381E72B2A5007FA2D9 /* TCNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		887C68391E72B2A5007FA2D9 /* TCNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		887C683B1E72B775007FA2D9 /* TCTransitionAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTransitionAnimationDelegate.h; sourceTree = "<group>"; };
+		887C683C1E72B775007FA2D9 /* TCTransitionAnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTransitionAnimationDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 		887C681D1E72AD34007FA2D9 /* CustomTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				887C683B1E72B775007FA2D9 /* TCTransitionAnimationDelegate.h */,
+				887C683C1E72B775007FA2D9 /* TCTransitionAnimationDelegate.m */,
+				887C68381E72B2A5007FA2D9 /* TCNavigationControllerDelegate.h */,
+				887C68391E72B2A5007FA2D9 /* TCNavigationControllerDelegate.m */,
+				887C68351E72AF03007FA2D9 /* TCNavigationController.h */,
+				887C68361E72AF03007FA2D9 /* TCNavigationController.m */,
 				887C68211E72AD34007FA2D9 /* AppDelegate.h */,
 				887C68221E72AD34007FA2D9 /* AppDelegate.m */,
 				887C68241E72AD34007FA2D9 /* ViewController.h */,
@@ -153,7 +168,10 @@
 			files = (
 				887C68261E72AD34007FA2D9 /* ViewController.m in Sources */,
 				887C68231E72AD34007FA2D9 /* AppDelegate.m in Sources */,
+				887C683A1E72B2A5007FA2D9 /* TCNavigationControllerDelegate.m in Sources */,
+				887C68371E72AF03007FA2D9 /* TCNavigationController.m in Sources */,
 				887C68201E72AD34007FA2D9 /* main.m in Sources */,
+				887C683D1E72B775007FA2D9 /* TCTransitionAnimationDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
